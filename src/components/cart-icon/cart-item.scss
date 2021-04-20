@@ -6,7 +6,6 @@
   justify-content: center;
   cursor: pointer;
   margin-right: 0.3125rem;
-  padding-right: 0.5rem;
 
   .shopping-icon {
     width: 1.5rem;
@@ -16,8 +15,6 @@
   .item-count {
     position: absolute;
     font-size: 0.625rem;
-    font-weight: bold;
-    top: 0;
-    right: 0;
+    top: 43%;
   }
 }

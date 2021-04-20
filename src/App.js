@@ -51,7 +51,7 @@ class App extends React.Component {
     return (
       <div>
         <Header />
-        {this.state.isLoading ? <h1>LOADING...</h1> : ""}
+        {/* {this.state.isLoading ? <h1>LOADING...</h1> : ""} */}
         <Switch>
           <Route exact path="/" component={Homepage} />
           <Route path="/shop" component={ShopPage} />
